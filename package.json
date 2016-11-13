@@ -1,0 +1,11 @@
+{
+  "name": "assertthat-type",
+  "version": "1.0.0",
+  "description": "A simple assertthat plugin which helps to assert type of objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Ganesh Patil",
+  "license": "ISC"
+}
