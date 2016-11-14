@@ -37,7 +37,7 @@ module.exports = function() {
     };
 
     is.array = function() {
-      if(check.object(actual)) {
+      if(check.array(actual)) {
         return;
       }
       assert.fail(undefined, undefined, 'Expected `' + actual + '` to be an Array.');

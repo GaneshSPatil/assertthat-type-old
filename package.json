@@ -1,14 +1,18 @@
 {
   "name": "assertthat-type",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple assertthat plugin which helps to assert type of objects.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Ganesh Patil",
   "license": "ISC",
   "dependencies": {
     "check-types": "^7.0.1"
+  },
+  "devDependencies": {
+    "assertthat": "^0.8.1",
+    "mocha": "^3.1.2"
   }
 }
