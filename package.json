@@ -7,5 +7,8 @@
     "test": "npm test"
   },
   "author": "Ganesh Patil",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "check-types": "^7.0.1"
+  }
 }
